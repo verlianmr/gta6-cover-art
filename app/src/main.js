@@ -1,6 +1,4 @@
-// Wires the studio: photo import (drop, picker, samples), the layout, grade and size controls,
-// the live poster preview with per-panel pan and zoom, the caption fields and the PNG export.
-// The renderer lives in poster.js; this file is the editor around it.
+// The editor: photo import (drop, picker, samples), the layout/grade/size controls, the live preview with per-panel pan and zoom, captions, and PNG export.
 
 import { SIZES, sizeById, makePng, downloadUrl, formatBytes } from './export.js';
 import { LAYOUTS, layoutById, framesFor, defaultCrop, smartCrop, panelAt, panCrop, zoomCrop } from './panels.js';

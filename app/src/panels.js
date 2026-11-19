@@ -1,6 +1,4 @@
-// The poster grid: where each photo panel and the caption lockup sit on the poster, how a photo
-// is cropped inside a panel (pan and zoom), and which panel a pointer is over.
-// Frames are computed in fractions of the poster, so one layout works at every export size.
+// The poster grid: each layout's panel and caption frames, the crop maths behind pan and zoom, and which panel a pointer is over.
 
 export const LAYOUTS = [
   { id: 'classic', label: 'Classic', hint: 'Hero + side', slots: 2 },

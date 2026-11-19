@@ -1,6 +1,4 @@
-// The poster lettering: a bold, auto-fitted caption with a dark outline, a warm gradient fill, a
-// chromatic fringe and a soft shadow, plus the small tracked edition line and its accent rule.
-// The caption is uppercased, wrapped to the box, and shrunk until it fits — at any poster size.
+// Poster lettering: the bold auto-fitted caption with its outline, gradient fill and fringe, plus the small tracked edition line and its rule.
 
 export const CAPTION_FAMILY = '"Liberation Sans", "Helvetica Neue", Arial, sans-serif';
 

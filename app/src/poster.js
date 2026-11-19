@@ -1,6 +1,4 @@
-// The compositor: paints a whole cover at any size from a plain model object.
-// Back to front — sky, photo panels, foreground palms, caption lockup, finish pass — so the
-// preview and the exported PNG are the same drawing code.
+// The compositor: paints a whole cover at any size from the model, back to front, so the preview and the exported PNG share one drawing code.
 
 import { framesFor, cropRect } from './panels.js';
 import { gradeFor, paintSky, paintForeground, gradePanel, paintFinish, roundRect, rgba } from './grade.js';

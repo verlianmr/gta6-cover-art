@@ -1,5 +1,4 @@
-// Export: the three post sizes, rendering the poster at full resolution, encoding a PNG and
-// handing it to the browser as a download. The same renderer draws the editor preview.
+// Export path: the three post sizes, a full-resolution render, PNG encoding, and the download handoff.
 
 import { drawPoster } from './poster.js';
 

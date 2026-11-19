@@ -1,6 +1,4 @@
-// Photos: reading the user's own files on their machine, decoding them into drawable images,
-// building the small chips the editor shows, and the two bundled samples plus one procedurally
-// drawn sample. Nothing here ever leaves the page.
+// Photo handling: decoding the user's own files in the page, the thumbnail chips, and the bundled plus procedural samples.
 
 import { GRADES, makeRandom, drawPalm, rgba } from './grade.js';
 

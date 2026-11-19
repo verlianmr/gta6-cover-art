@@ -1,3 +1,4 @@
+/* One stylesheet for the studio: the bundled font, the three-column shell, cards, chips, sliders and the poster stage. */
 @font-face {
   font-family: "Liberation Sans";
   src: url("./fonts/LiberationSans-Regular.ttf") format("truetype");

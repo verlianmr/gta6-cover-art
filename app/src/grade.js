@@ -1,8 +1,4 @@
-// Colour grades and every procedural scenery layer of the poster: the sunset sky, the sun,
-// clouds, a distant skyline, palm silhouettes, the colour grade laid over each photo panel,
-// film grain, scanlines, vignette, the chromatic edge and the printed frame.
-// All of it is plain canvas paths; every random value comes from a seeded generator, so the
-// same cover draws the same pixels every time.
+// Colour grades and every procedural scenery layer (sky, sun, clouds, skyline, palms, panel grade, grain, scanlines, vignette, frame), drawn with canvas paths and seeded randomness so a cover repeats pixel for pixel.
 
 const TAU = Math.PI * 2;
 

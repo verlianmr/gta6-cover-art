@@ -1,7 +1,4 @@
-// Deterministic screenshot scenes. `?shot=cover` renders a finished cover through the real PNG
-// export and shows that PNG alone; `?shot=editor` fills the studio with photos, a layout and a
-// grade so the editor can be captured with its panels and controls visible.
-// Query: shot, photo, photo2, photo3, caption, edition, grade, layout, size, zoom, export.
+// Screenshot scenes behind ?shot= (shot, photo, photo2, photo3, caption, edition, grade, layout, size, zoom, export): the finished cover alone, or the editor filled in for capture.
 
 import { loadSample } from './photos.js';
 import { makePng, sizeFromParam } from './export.js';
