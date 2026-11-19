@@ -1,5 +1,26 @@
 [
-  { "name": "1-cover.jpg", "query": "?shot=cover&photo=pier&caption=Sunset%20Heist", "w": 1080, "h": 1080 },
-  { "name": "2-editor.jpg", "query": "?shot=editor&photo=boulevard&caption=Boulevard%20Queen", "w": 1280, "h": 720 },
-  { "name": "3-cover.jpg", "query": "?shot=cover&photo=boulevard&caption=Boulevard%20Queen", "w": 1080, "h": 1080 }
+  {
+    "name": "1-cover-landscape.jpg",
+    "about": "Exported 1920 x 1080 cover, sunset grade, Classic layout",
+    "query": "?shot=cover&photo=boulevard&caption=Sunset%20Heist&edition=The%20Gold%20Coast%20Edition&grade=sunset&layout=classic&size=1920x1080&crop0=1.05,-0.15,-0.35&crop1=3.2,0.05,-0.62",
+    "viewport": { "w": 1280, "h": 720 }
+  },
+  {
+    "name": "2-editor.jpg",
+    "about": "The studio with two photos loaded, panels filled, controls and the export panel",
+    "query": "?shot=editor&photo=boulevard&photo2=skyline&caption=Ocean%20Drive&edition=The%20Gold%20Coast%20Edition&grade=neon&layout=classic&size=1080x1080&export=1&panel=1&crop0=1,-0.1,-0.45",
+    "viewport": { "w": 1280, "h": 960 }
+  },
+  {
+    "name": "3-cover-square.jpg",
+    "about": "Exported 1080 x 1080 cover, golden hour grade",
+    "query": "?shot=cover&photo=boulevard&caption=Golden%20Hour&edition=The%20Gold%20Coast%20Edition&grade=golden&layout=classic&size=1080x1080&crop0=1,-0.1,-0.45&crop1=2.4,0.2,-0.5",
+    "viewport": { "w": 1080, "h": 1080 }
+  },
+  {
+    "name": "4-cover-portrait.jpg",
+    "about": "Exported 1080 x 1350 cover, neon night grade",
+    "query": "?shot=cover&photo=boulevard&caption=Neon%20Nights&edition=The%20Gold%20Coast%20Edition&grade=neon&layout=classic&size=1080x1350&crop0=1,-0.1,-0.4&crop1=2.3,0.2,-0.45",
+    "viewport": { "w": 864, "h": 1080 }
+  }
 ]
